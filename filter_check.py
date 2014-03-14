@@ -1,3 +1,9 @@
+# Simple script to check if a website is being filtered by Sophos Web Appliance and send email if not.
+#
+# Credit for most of code was based on this: http://stackoverflow.com/questions/17152296/different-results-with-python-requests-module-and-curl
+# Sendmail code is base on this: http://stackoverflow.com/questions/73781/sending-mail-via-sendmail-from-python
+#
+
 import requests
 import pprint
 from email.mime.text import MIMEText
