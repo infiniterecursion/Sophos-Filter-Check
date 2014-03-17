@@ -10,8 +10,8 @@ from email.mime.text import MIMEText
 from subprocess import Popen, PIPE
 
 msg = MIMEText("The Sophos Filter is not functioning correctly!")
-msg["From"] = "brad.zima@nilesschools.org"
-msg["To"] = "brad.zima@nilesschools.org"
+msg["From"] = ""
+msg["To"] = ""
 msg["Subject"] = "Sophos Filter Error"
 
 url = 'http://sophostest.com/hacking/index.html'
